@@ -42,6 +42,7 @@ public class Order
 
 public class OrderItem
 {
+    public Guid OrderId { get; set; }
     public Guid ProductId { get; set; }
     public string Name { get; set; } = null!;
     public int Quantity { get; set; }
